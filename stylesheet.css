@@ -1,0 +1,81 @@
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: 926239;
+    line-height:1.6;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+}
+h1, h2 {
+    text-align: center;
+    padding: 18px;
+}
+/* .color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+} */
+.background {
+    background-color: linear-gradient(to bottom right, whitesmoke, rgb(220, 146, 60));        
+}
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+}
+.footer {
+    text-decoration: none;
+    text-align: center;
+}
+.d-flex {
+    row-gap: 100px;
+}
+#banner-buttons {
+    gap: 80px;
+    margin: 40px;
+}
+  #countries-carousel {
+    margin: 40vh;
+  }
+  .survey-form {
+    padding-left: 30px;
+    align-items: center;
+}
+#text-area-1 {
+    padding: 20px 10px;
+}
+#name-field, #email-field {
+    padding: 10px 10px;
+}
+#submit-button {
+    margin: 0px 30px 50px 10px;
+}  
+#survey-form {
+    padding-left: 30px;
+}
+#text-area {
+    padding: 15px;
+}
+#intro-top {
+    margin-top: 30px;
+}
+#about-page-end {
+    margin-bottom: 50px;
+}
+
